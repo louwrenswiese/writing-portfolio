@@ -1,0 +1,111 @@
+/* Base */
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+
+header,
+nav,
+main,
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+header {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    font-size: 0.9rem;
+    color: #555;
+    border-top: 1px solid #ddd;
+    margin-top: 3rem;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.8rem;
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 1.2rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* Navigation */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #003366;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+
+section {
+    margin-bottom: 2.5rem;
+}
+
+.context,
+.notes {
+    background-color: #f2f2f2;
+    padding: 1.2rem;
+    border-left: 4px solid #ccc;
+}
+
+.notes ul {
+    margin-left: 1.2rem;
+}
+
+/* Links */
+
+a {
+    color: #003366;
+}
+
+a:hover {
+    color: #001f33;
+}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+}
